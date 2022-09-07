@@ -26,7 +26,8 @@ header {
     justify-content: center;
 }
 
-.dsmeta-logo-container {
+.dsmeta-logo-container {/*para se usar uma "class"
+                          nós chamamos ela através do " . "*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,4 +46,21 @@ header {
 .dsmeta-logo-container p {
     font-size: 14px;
     font-weight: 300;
+}
+
+.dsmeta-card {
+    background-color: #283142;
+   
+}
+
+.dsmeta-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto; /*macete para alinhar no centro*/
+}
+
+#sales { /*para usar um id se usa o  # ao invés do .*/
+
+    padding: 40px 10px;/* o primeiro numero é o espaçamento do topo
+                          e o segundo é os laterais*/
 }
